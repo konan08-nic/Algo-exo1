@@ -1,0 +1,42 @@
+Algoritme Phrase
+var
+    cpt1:integer;
+    cpt2:integer;
+    cpt3: integer;
+    c: string;
+    i:integer
+    cpt1:=0;
+    cpt2:=0;
+    cpt3:=0;
+    i:=0;
+Begin
+    writte ("entrez votre phrase svp");
+    read(c);
+
+    //Longueur de la phrase
+
+    for From i to c[i]="." STEP 1 do
+    end
+        cpt2:=i+1;
+        read("cette phrase a une longueur de:"cpt2 "cm");   
+
+        //le nombre de mot dans la phrase
+
+    for i from 0 to cpt2-1 STEP 1 do
+             if (c[i]=" ") then
+                cpt1:=cpt1+1;
+    end
+
+        read("cette phrase compte :" cpt1+1 "mots");
+
+    // Le nombre de voyelle dans la phrase
+
+    for i FROM 0 TO c[1]<>"." STEP 1 do
+            if(c[i]="a" or c[i]="e" or c[i]="i" or c[i]="o" or c[i]="u" or c[i]="y") then
+                cpt3:=cpt3+1;
+            end
+    end 
+    read("cette phrase compte" cpt3 "voyelles") ;
+end
+                
+            
